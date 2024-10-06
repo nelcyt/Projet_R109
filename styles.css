@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap");
+
+
+main {
+    background-color: #041821;
+}
+
+body {
+    background-color: #041821 ;
+    margin: 0;
+    font-family: "Montserrat",sans-serif;
+}
+
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 16px;
+}
+
+
+header p {
+    color: white;
+    font-size: 18px;
+    font-family: "Yeseva One", sans-serif;*
+  }
+
+span {
+    color : #5dc0a3 ;
+}
+
+
+/* on ajoute la ligne de bordure du haut*/
+header {
+    margin-bottom: 0px;
+    border-bottom: solid  1px #455761;
+  }
+
+.icones {
+    text-align : right   ;
+}
+
+.icones i {
+    margin-left: 25px;
+    font-size: 18px;
+}
+
+  
