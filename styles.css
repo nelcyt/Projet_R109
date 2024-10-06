@@ -2,14 +2,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap");
 
 
-main {
-    background-color: #041821;
-}
+
 
 body {
     background-color: #041821 ;
     margin: 0;
     font-family: "Montserrat",sans-serif;
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 
@@ -18,6 +19,8 @@ header {
     grid-template-columns: 1fr 1fr;
     align-items: center;
     padding: 16px;
+    border-bottom: solid 1px #455761;
+    margin-bottom: 0;
 }
 
 
@@ -31,13 +34,6 @@ span {
     color : #5dc0a3 ;
 }
 
-
-/* on ajoute la ligne de bordure du haut*/
-header {
-    margin-bottom: 0px;
-    border-bottom: solid  1px #455761;
-  }
-
 .icones {
     text-align : right   ;
 }
@@ -47,4 +43,57 @@ header {
     font-size: 18px;
 }
 
-  
+
+
+
+
+.presentation {
+
+    color: white;
+    font-family: "Yeseva One",sans-serif;
+    font-size: 38px;
+    margin-top: 0px;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.Lorem {
+    font-family: "Montserrat";
+    font-size: 11px;
+    color: #5a676d;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.presentation,.Lorem {
+
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+footer {
+    color:#506169;
+    text-align: center;
+    font-size: 10px;
+    margin-top: auto;
+    
+}
+
+
+footer #foote {
+    color: #506169;
+    font-size: 8px;
+    text-align: center;
+    
+}
+
+
