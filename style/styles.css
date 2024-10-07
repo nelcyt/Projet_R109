@@ -193,20 +193,6 @@ footer #footer_exercise {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (min-width: 1025px) {
 
 
@@ -270,3 +256,94 @@ footer #footer_exercise {
     }
 
   }
+
+
+  @media (min-width: 426px) and (max-width: 1024px) {
+    body {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+  
+    main {
+      padding-top: 50px;
+    }
+    
+    header p {
+
+      font-size: 30px;
+    }
+
+
+    header {
+      padding: 0px 28px;
+    }
+  
+  
+    .icones i {
+      height: 25px;
+      margin-top: 0px;
+      font-size: 20px;
+    }
+  
+    .Lorem {
+      margin-bottom: 4vh;
+      width: 560px;
+    }
+  
+    main #presentation {
+      width: 560px;
+    }
+  
+  
+    main {
+      padding-top: 45px;
+      padding-left: 45px;
+      padding-right: 45px;
+    }
+  
+    main li {
+      font-size: 16px;
+      margin-right: 20px;
+    }
+  
+    main p {
+      font-size: 43px;
+    }
+  
+    main #presentation {
+      width: 580px;
+      height: 165px;
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      margin-bottom: 7px;
+      font-size: 10px;
+    }
+  
+    .parent_menu {
+      padding-bottom: 4vh;
+    }
+  
+    main #Lorem {
+      font-size: 15px;
+    }
+
+  
+  
+  
+    .imagesall img {
+      max-width: 100px;
+      height: 100px;
+    }
+  
+    .imagesall {
+      grid-template-columns: repeat(5, 1fr);
+      gap: 6px;
+      align-items: center;
+      max-width: 580px;
+      height: 320px;
+    }
+  }
+  
+
+
