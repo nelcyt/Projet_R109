@@ -8,9 +8,6 @@ body {
     background-color: #041821 ;
     margin: 0;
     font-family: "Montserrat",sans-serif;
-    display:flex;
-    flex-direction: column;
-    min-height: 100vh;
 }
 
 
@@ -25,16 +22,24 @@ header {
 
 header p {
     color: white;
-    font-size: 18px;
+    font-size: 19px;
     font-family: "Yeseva One", sans-serif;*
   }
 
+header i {
+
+  color: white;
+
+}
+
+.entête {
+  padding: 8px;
+  margin: 0;
+}
 
 
 
-
-
-span {
+.entête , .c&e {
     color : #16d49a ;
 }
 
@@ -49,6 +54,17 @@ span {
 }
 
 
+main {
+  padding-top: 65px;
+}
+
+main p {
+
+  color:white;
+  font-family: "Yeseva One", sans-serif;
+  font-size: 40px;
+  margin-top: 0;
+}
 
 
 
@@ -64,23 +80,27 @@ span {
     
 }
 
+.parentprest {
+  display: flex;
+  flex-wrap: wrap;
+}
 
-.presentation {
+.parentprest , .parent_Lorem , .parent_menu {
 
-    padding: 8px;
-    margin: 0;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 
 }
 
-.Lorem {
+
+main #Lorem {
     font-family: "Montserrat";
     font-size: 11px;
     color: #5a676d;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
 }
 
 
@@ -92,30 +112,12 @@ span {
     flex-wrap: wrap;
 }
 
-
-footer {
-    color:#506169;
-    text-align: center;
-    font-size: 10px;
-    margin-top: auto;
-    
-}
-
-
-footer #foote {
-    color: #506169;
-    font-size: 8px;
-    text-align: center;
-    
-}
-
-
 ul {
     display: flex;
     flex-wrap: wrap;
     list-style-type: none;
     padding: 0;
-    margin: 40px;
+    margin: 0;
     color: white;
     font-size: 11px;
     align-items: center;
@@ -124,9 +126,16 @@ ul {
 }
 
 li {
-    margin-right: 35px;
+    margin-right: 30px;
     text-align: center;
   }
+
+.menu {
+
+  align-items: center;
+
+}
+
 
 .menu_surligné {
     color: white ;
@@ -134,27 +143,39 @@ li {
     padding: 5px;
 }
 
-.grid-item {
+.Parent_image {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0px;
+    margin: 0 auto;
   }
 
-.grid-container {
-    
+.imagesall {
+
+    grid-gap: 1px;
     display: grid;
     padding: 1px;
 
 }
-.grid-item img {
+.imagesall img {
 
     height: auto;
 
 }
 
+footer {
+  color: #506169;
+  text-align: center;
+  padding: 14px;
+  font-size: 10px;
+}
 
+footer #footer_exercise {
+  color: #506169;
+  text-align: center;
+  font-size: 8px;
+}
 
 
 
