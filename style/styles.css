@@ -158,18 +158,6 @@ li {
     padding: 1px;
 }
 
-
-
-
-.imagesall img {
-
-    height: auto;
-
-}
-
-
-
-
 footer {
   color: #7c878b;
   text-align: center;
@@ -203,27 +191,38 @@ footer #footer_exercise {
   
     main {
       padding-top: 35px;
-      padding-left: 90px;
-      padding-right: 90px;
+      padding-left: 10%;
+      padding-right: 10%;
     }
   
+    main li {
+      margin-right: 0px;
+      padding-left: 1.5vh;
+      padding-right: 1.5vh;
+    }
+
+
+
     main ul {
-      margin-left: 32px;
-      font-size: 11px;
+      font-size: 80%;
     }
    
     main #presentation {
-      width: 810px;
-      height: 165px;
+      width: 180vh;
+      height: 20vh;
       display: flex;
       justify-content: left;
       align-items: center;
     }
   
     .Lorem {
-      font-size: 15px;
+      font-size: 20%;
       text-align: left;
-      width: 810px;
+      width: 180vh;
+      height: 4%
+      
+      
+      ;
     }
   
     .parentprest {
@@ -239,17 +238,17 @@ footer #footer_exercise {
     }
   
     
-    .imagesall {
-      
-      grid-template-columns: repeat(4, 1fr);
-      gap: 5px;
+    .imagesall img {
+      max-width: 100%;
+      height: 100%;
     }
   
-
-    
-    .imagesall img {
-      max-width: 200px;
-      height: 200px;
+    .imagesall {
+      grid-template-columns: repeat(4, 1fr);
+      gap: 6px;
+      align-items: center;
+      max-width:  100%;
+      height: 15%;
     }
 
   }
@@ -259,15 +258,12 @@ footer #footer_exercise {
     body {
       padding-left: 0px;
       padding-right: 0px;
+      padding-bottom: 0px;
     }
-  
-    main {
-      padding-top: 50px;
-    }
-    
+
     header p {
 
-      font-size: 30px;
+      font-size: 3vh;
     }
 
 
@@ -279,16 +275,13 @@ footer #footer_exercise {
     .icones i {
       height: 25px;
       margin-top: 0px;
-      font-size: 20px;
+      font-size: 2vh;
     }
   
     .Lorem {
-      margin-bottom: 4vh;
-      width: 560px;
-    }
-  
-    main #presentation {
-      width: 560px;
+      margin-bottom: 1vh;
+      width: 180vw;
+      height: 10vh;
     }
   
   
@@ -298,47 +291,56 @@ footer #footer_exercise {
       padding-right: 45px;
     }
   
+    main ul {
+      font-size: 2vw;
+      padding-bottom: 5%;
+      height: 100%;
+      width: 100%;
+    }
+  
     main li {
-      font-size: 16px;
-      margin-right: 20px;
+      margin-right: 0px;
+      padding-left: 1.5vh;
+      padding-right: 1.5vh;
     }
   
     main p {
-      font-size: 43px;
+      font-size: 4vh;
     }
   
     main #presentation {
-      width: 580px;
-      height: 165px;
+      width: 180vw;
+      height: 20vh;
       display: flex;
       justify-content: left;
       align-items: center;
-      margin-bottom: 7px;
-      font-size: 10px;
+      margin-bottom: 2vw;
+      font-size: 10vw;
     }
   
     .parent_menu {
-      padding-bottom: 4vh;
+      padding-bottom: 2vw;
+      font-size : 2vh;
     }
   
     main #Lorem {
-      font-size: 15px;
+      font-size: 1.5vh;
+
     }
 
-  
-  
-  
+
     .imagesall img {
-      max-width: 100px;
-      height: 100px;
+      max-width: 100%;
+      height: 100%;
     }
   
     .imagesall {
       grid-template-columns: repeat(5, 1fr);
       gap: 6px;
       align-items: center;
-      max-width: 580px;
-      height: 320px;
+      max-width:  98%;
+      height: 15%;
+      padding-bottom: 2vh;
     }
   }
   
@@ -389,7 +391,7 @@ footer #footer_exercise {
     }
   
     main ul {
-      font-size: 12px;
+      font-size: 70%;
       padding-bottom: 20px;
     }
   
@@ -429,7 +431,7 @@ footer #footer_exercise {
       align-items: center;
       max-width: 98%;
       height: 15%;
-      padding-bottom: 5vh;
+      padding-bottom: 2vh;
     }
 
     .imagesall img {
